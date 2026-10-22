@@ -5,6 +5,7 @@ import config
 from src.data_prep.players import load_players
 from src.rag.pipeline import answer_question
 from src.vectorstore.store import count, get_store
+from src.rag.team_guide import make_team_guide
 
 st.set_page_config(page_title="KBL 안내", page_icon="🏀")
 st.title("🏀 KBL 선수 · 팀 안내")
@@ -33,6 +34,95 @@ def render_sources(cited: list[dict]) -> None:
             st.markdown(f"**[근거 {e['n']}]** ({e['kind']}) {e['title']}{link}")
             st.caption(e["text"][:200].replace("\n", " ") + " ...")
         st.caption("위키백과 문서는 CC BY-SA 4.0 라이선스입니다.")
+
+
+def render_chat(player: dict) -> None:
+    """선수와의 대화 탭."""
+    player_id = player["player_id"]
+    st.subheader(f"{player['name']} · {player['team']}")
+    st.caption(f"{player['position']} · 등번호 {player['jersey_number']}번")
+
+    # [실습 3] 선수별 대화 기록
+    #   chats    = st.session_state.setdefault("chats", {})      # {선수 id: 메시지 목록}
+    #   messages = chats.setdefault(player_id, [])                # 이 선수의 메시지 목록
+    #   사이드바에 "이 선수와의 대화 지우기" 버튼을 만들고, 누르면 messages.clear()
+    #   그리고 messages 를 순서대로 다시 그리세요. 메시지 모양: {"role", "content", "cited"}
+    #     - st.chat_message(m["role"]) 안에 st.markdown(m["content"])
+    #     - assistant 메시지는 render_sources(m["cited"]) 도 함께 (다시 그릴 때 근거가 사라지지 않도록)
+    chats = st.session_state.setdefault("chats", {})
+    messages = chats.setdefault(player_id, [])
+
+    if st.sidebar.button("이 선수와의 대화 지우기"):
+        messages.clear()
+
+    for message in messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+            if message["role"] == "assistant":
+                render_sources(message["cited"])
+
+    question = st.chat_input(f"{player['name']} 선수에 대해 궁금한 점을 물어보세요")
+
+    if question:
+        messages.append({"role": "user", "content": question})
+        with st.chat_message("user"):
+            st.markdown(question)
+
+        with st.chat_message("assistant"):
+            out = None
+            # [실습 4] 파이프라인을 호출하세요
+            #   with st.status("답변을 준비하는 중...", expanded=True) as status:
+            #       out = answer_question(player, question, on_progress=status.write)
+            #       status.update(label="완료", state="complete", expanded=False)
+            #   이 호출 전체를 try / except 로 감싸고, 에러가 나면 st.error("답변을 만들지 못했습니다. ...") 로 안내하세요
+            try:
+                with st.status("답변을 준비하는 중...", expanded=True) as status:
+                    out = answer_question(player, question, on_progress=status.write)
+                    status.update(label="완료", state="complete", expanded=False)
+            except Exception:
+                st.error("답변을 만들지 못했습니다. 잠시 후 다시 시도해 주세요.")
+
+            # out 이 있으면 답변과 근거를 보여 주고, 대화 기록에 저장하세요
+            #   st.markdown(out["answer"]) ; render_sources(out["cited"])
+            #   messages.append({"role": "assistant", "content": out["answer"], "cited": out["cited"]})
+            if out:
+                st.markdown(out["answer"])
+                render_sources(out["cited"])
+                messages.append({"role": "assistant", "content": out["answer"], "cited": out["cited"]})
+
+
+def render_team_guide(team_names: list[str]) -> None:
+    """팀 가이드 탭 (F2010)."""
+    st.subheader("팀 가이드")
+    guide_team = st.selectbox(
+        "가이드를 볼 팀", team_names, index=None, placeholder="팀을 고르세요", key="guide_team"
+    )
+    if not guide_team:
+        st.info("팀을 고르면 연고지·역사·성적·선수단을 정리해 드립니다.")
+        return
+
+    guides = st.session_state.setdefault("guides", {})     # {팀: 가이드 결과}
+    label = "다시 만들기" if guide_team in guides else "가이드 만들기"
+
+    # [실습 5] 버튼을 누르면 가이드를 만들어 guides[team] 에 저장하세요
+    #   if st.button(label):
+    #       with st.status("팀 가이드를 준비하는 중...", expanded=True) as status:
+    #           (try) guides[team] = make_team_guide(team, on_progress=status.write)
+    #                 status.update(label="완료", state="complete", expanded=False)
+    #           (except) status.update(label="실패", state="error") 하고 st.error("팀 가이드를 만들지 못했습니다. ...")
+    if st.button(label):
+        with st.status("팀 가이드를 준비하는 중...", expanded=True) as status:
+            try:
+                guides[guide_team] = make_team_guide(guide_team, on_progress=status.write)
+                status.update(label="완료", state="complete", expanded=False)
+            except Exception:
+                status.update(label="실패", state="error")
+                st.error("팀 가이드를 만들지 못했습니다. 잠시 후 다시 시도해 주세요.")
+
+    # 만들어 둔 가이드가 있으면 보여 주기 (다른 위젯을 눌러 화면이 다시 그려져도 유지됨)
+    if guide_team in guides:
+        st.markdown(guides[guide_team]["answer"])
+        render_sources(guides[guide_team]["cited"])
 
 
 players = get_players()
@@ -64,58 +154,13 @@ with st.sidebar:
     except Exception:
         st.caption("색인을 읽지 못했습니다.")
 
-if not player_id:
-    st.info("왼쪽에서 팀과 선수를 먼저 고르세요.")
-    st.stop()
+tab_chat, tab_guide = st.tabs(["선수에게 질문", "팀 가이드"])
 
-player = by_id[player_id]
-st.subheader(f"{player['name']} · {player['team']}")
-st.caption(f"{player['position']} · 등번호 {player['jersey_number']}번")
+with tab_chat:
+    if player_id:
+        render_chat(by_id[player_id])
+    else:
+        st.info("왼쪽에서 팀과 선수를 먼저 고르세요.")
 
-# [실습 3] 선수별 대화 기록
-#   chats    = st.session_state.setdefault("chats", {})      # {선수 id: 메시지 목록}
-#   messages = chats.setdefault(player_id, [])                # 이 선수의 메시지 목록
-#   사이드바에 "이 선수와의 대화 지우기" 버튼을 만들고, 누르면 messages.clear()
-#   그리고 messages 를 순서대로 다시 그리세요. 메시지 모양: {"role", "content", "cited"}
-#     - st.chat_message(m["role"]) 안에 st.markdown(m["content"])
-#     - assistant 메시지는 render_sources(m["cited"]) 도 함께 (다시 그릴 때 근거가 사라지지 않도록)
-chats = st.session_state.setdefault("chats", {})
-messages = chats.setdefault(player_id, [])
-
-if st.sidebar.button("이 선수와의 대화 지우기"):
-    messages.clear()
-
-for message in messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
-        if message["role"] == "assistant":
-            render_sources(message["cited"])
-
-question = st.chat_input(f"{player['name']} 선수에 대해 궁금한 점을 물어보세요")
-
-if question:
-    messages.append({"role": "user", "content": question})
-    with st.chat_message("user"):
-        st.markdown(question)
-
-    with st.chat_message("assistant"):
-        out = None
-        # [실습 4] 파이프라인을 호출하세요
-        #   with st.status("답변을 준비하는 중...", expanded=True) as status:
-        #       out = answer_question(player, question, on_progress=status.write)
-        #       status.update(label="완료", state="complete", expanded=False)
-        #   이 호출 전체를 try / except 로 감싸고, 에러가 나면 st.error("답변을 만들지 못했습니다. ...") 로 안내하세요
-        try:
-            with st.status("답변을 준비하는 중...", expanded=True) as status:
-                out = answer_question(player, question, on_progress=status.write)
-                status.update(label="완료", state="complete", expanded=False)
-        except Exception:
-            st.error("답변을 만들지 못했습니다. 잠시 후 다시 시도해 주세요.")
-
-        # out 이 있으면 답변과 근거를 보여 주고, 대화 기록에 저장하세요
-        #   st.markdown(out["answer"]) ; render_sources(out["cited"])
-        #   messages.append({"role": "assistant", "content": out["answer"], "cited": out["cited"]})
-        if out:
-            st.markdown(out["answer"])
-            render_sources(out["cited"])
-            messages.append({"role": "assistant", "content": out["answer"], "cited": out["cited"]})
+with tab_guide:
+    render_team_guide(teams)
