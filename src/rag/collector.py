@@ -7,6 +7,7 @@ from src.data_prep.cache import get_query_record, load_page, put_query_record, s
 from src.data_prep.wiki import fetch_page, search
 from src.rag.candidate_selection import is_own_doc, select_candidates
 from src.rag.query_extraction import extract_queries
+from src.data_prep.teams import load_teams
 
 
 def get_page(page_id: int, title: str) -> dict | None:
@@ -27,13 +28,13 @@ def get_page(page_id: int, title: str) -> dict | None:
 
 def collect_documents(player: dict, question: str, on_progress=None) -> list[dict]:
     """질문에 쓸 위키 문서들을 모아 돌려준다. on_progress 는 진행 상황을 알려 주는 함수(화면 안내용, F2012)."""
-    team = player["team"]
     say = on_progress or (lambda message: None)
 
     say("검색어를 뽑는 중...")
     queries = extract_queries(player, question)
     say(f"검색어: {queries}")
 
+    team_names = {t["team_name"] for t in load_teams()}
     docs, seen = [], set()
     for query in queries:
         record = get_query_record(query)
@@ -52,10 +53,12 @@ def collect_documents(player: dict, question: str, on_progress=None) -> list[dic
             page = get_page(c["page_id"], c["title"])
             if page is None:
                 continue
+            doc_team = None
             if is_own_doc(player, {"title": page["title"], "snippet": page["text"][:300]}):
                 scope = "player"
-            elif page["title"] == team:
+            elif page["title"] in team_names:
                 scope = "team"
+                doc_team = page["title"]          # 선수 팀이 아니라 '문서가 다루는 팀'
             else:
                 scope = "league"
             if scope != "player" and len(page["text"]) < config.MIN_DOC_CHARS:
@@ -66,6 +69,6 @@ def collect_documents(player: dict, question: str, on_progress=None) -> list[dic
                 **page,
                 "scope": scope,
                 "player_id": player["player_id"] if scope == "player" else None,
-                "team": team if scope == "team" else None,
+                "team": doc_team,
             })
     return docs
