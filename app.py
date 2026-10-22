@@ -12,12 +12,36 @@ st.set_page_config(page_title="KBL 안내", page_icon="🏀")
 st.title("🏀 KBL 선수 · 팀 안내")
 st.caption("선수를 고르고 질문하면, 근거를 찾아 답하고 출처를 함께 보여 줍니다.")
 
+# ★ API 키가 없으면 안내만 보여 주고 멈춘다 (키 값은 화면에 절대 표시하지 않는다)
+if not config.GMS_KEY:
+    st.error("GMS_KEY 가 설정되지 않았습니다. 프로젝트 폴더의 .env 파일에 GMS_KEY=... 를 넣고 앱을 다시 실행해 주세요.")
+    st.stop()
+
 VIEWS = ["선수에게 질문", "팀 가이드", "선수 찾기"]
 
 
 @st.cache_data
 def get_players() -> list[dict]:
     return load_players()
+
+
+# ★ 오류 종류에 따라 사용자에게 보여 줄 안내 문구를 고른다
+def explain_error(e: Exception) -> str:
+    name = type(e).__name__.lower()
+    msg = str(e).lower()
+    if "401" in msg or "api key" in msg or "authentication" in name:
+        return "API 키가 올바르지 않거나 만료됐을 수 있습니다. .env 의 GMS_KEY 를 확인해 주세요."
+    if "429" in msg or "rate" in msg:
+        return "요청이 한꺼번에 너무 많습니다. 잠시 뒤 다시 시도해 주세요."
+    if "timeout" in msg or "connection" in msg or "timeout" in name or "connection" in name:
+        return "네트워크 연결이 불안정합니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요."
+    return "예상하지 못한 오류가 발생했습니다. 잠시 뒤 다시 시도해 주세요."
+
+
+# ★ 오류 안내를 한 곳에서 보여 준다 (오류 종류 이름만 작게 덧붙인다)
+def show_error(action: str, e: Exception) -> None:
+    st.error(f"{action} {explain_error(e)}")
+    st.caption(f"오류 종류: {type(e).__name__}")
 
 
 def render_sources(cited: list[dict]) -> None:
@@ -90,8 +114,8 @@ def render_chat(player: dict) -> None:
                 with st.status("답변을 준비하는 중...", expanded=True) as status:
                     out = answer_question(player, question, on_progress=status.write)
                     status.update(label="완료", state="complete", expanded=False)
-            except Exception:
-                st.error("답변을 만들지 못했습니다. 잠시 후 다시 시도해 주세요.")
+            except Exception as e:                                   # ★ 오류 종류별 안내
+                show_error("답변을 만들지 못했습니다.", e)
 
             # out 이 있으면 답변과 근거를 보여 주고, 대화 기록에 저장하세요
             #   st.markdown(out["answer"]) ; render_sources(out["cited"])
@@ -126,9 +150,9 @@ def render_team_guide(team_names: list[str]) -> None:
             try:
                 guides[guide_team] = make_team_guide(guide_team, on_progress=status.write)
                 status.update(label="완료", state="complete", expanded=False)
-            except Exception:
+            except Exception as e:                                   # ★ 오류 종류별 안내
                 status.update(label="실패", state="error")
-                st.error("팀 가이드를 만들지 못했습니다. 잠시 후 다시 시도해 주세요.")
+                show_error("팀 가이드를 만들지 못했습니다.", e)
 
     # 만들어 둔 가이드가 있으면 보여 주기 (다른 위젯을 눌러 화면이 다시 그려져도 유지됨)
     if guide_team in guides:
@@ -147,10 +171,10 @@ def render_player_search() -> None:
             try:
                 st.session_state["find_result"] = find_players(text.strip(), on_progress=status.write)
                 status.update(label="완료", state="complete", expanded=False)
-            except Exception:
+            except Exception as e:                                   # ★ 오류 종류별 안내
                 st.session_state.pop("find_result", None)
                 status.update(label="실패", state="error")
-                st.error("선수를 찾지 못했습니다. 잠시 후 다시 시도해 주세요.")
+                show_error("선수를 찾지 못했습니다.", e)
 
     result = st.session_state.get("find_result")
     if not result:
@@ -190,6 +214,7 @@ def render_player_search() -> None:
 
 players = get_players()
 by_id = {p["player_id"]: p for p in players}
+index_ok = False                                                     # ★ 선수 색인이 읽히고 비어 있지 않은지
 
 with st.sidebar:
     st.header("선수 선택")
@@ -214,8 +239,16 @@ with st.sidebar:
         player_count = count(get_store(config.COL_PLAYERS))
         doc_count = count(get_store(config.COL_DOCS))
         st.caption(f"선수 청크: {player_count}건, 문서 청크: {doc_count}건")
+        index_ok = player_count > 0                                  # ★
+        if doc_count == 0:                                           # ★ 문서 색인이 비어 있는 것은 정상일 수 있다
+            st.caption("문서 색인이 비어 있습니다. 질문하면 위키 문서를 모아 채워집니다.")
     except Exception:
         st.caption("색인을 읽지 못했습니다.")
+
+# ★ 선수 색인이 없으면 무엇을 해야 하는지 안내하고 멈춘다
+if not index_ok:
+    st.error("선수 색인을 읽을 수 없거나 비어 있습니다. 터미널에서 `python -m scripts.index_players` 를 실행한 뒤 앱을 다시 열어 주세요.")
+    st.stop()
 
 # 화면 선택 (탭 대신 radio: 코드로 화면을 바꿀 수 있어야 '카드 -> 대화' 이동이 된다)
 view = st.radio("화면", VIEWS, horizontal=True, key="view", label_visibility="collapsed")
