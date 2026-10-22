@@ -30,3 +30,6 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 TOP_K = 6
 SEARCH_TYPE = "similarity"   # 심화 F2014: "mmr"
+
+MAX_SELECTED = 3   # 검색어 하나당 색인할 문서 최대 수 (프롬프트 2가 고르는 개수의 상한)
+MIN_DOC_CHARS = 500   # 이보다 짧은 위키 문서는 근거로 쓰기 어려워 제외 (선수 본인 문서는 예외)
