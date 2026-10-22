@@ -4,6 +4,7 @@ import config
 
 from src.data_prep.players import build_text
 from src.rag.query_extraction import get_llm, parse_json_list
+from src.data_prep.teams import load_teams
 
 # [실습 22] 프롬프트 2를 직접 써 보세요. 프롬프트 1과 같은 방식으로 빈칸 세 개를 넣어요.
 #   빈칸: {player_text} 선택한 선수 정보 / {question} 사용자 질문 / {candidates} 후보 목록
@@ -71,6 +72,10 @@ def is_own_doc(player: dict, c: dict) -> bool:
 
 def select_candidates(question: str, player: dict, candidates: list[dict]) -> list[dict]:
     """본인 문서는 항상 포함하고, 나머지는 LLM 이 골라 최대 MAX_SELECTED 개."""
+
+    team_names = {t["team_name"] for t in load_teams()}
+    my_team_docs = [c for c in candidates if c["title"] == player["team"]]
+
     # [실습 25] 후보를 두 묶음으로 나눈다.
     #   own    = 본인 문서인 후보들      (힌트: [c for c in candidates if is_own_doc(player, c)])
     #   others = 나머지 후보들           (힌트: [c for c in candidates if c not in own])
@@ -79,7 +84,8 @@ def select_candidates(question: str, player: dict, candidates: list[dict]) -> li
     #   마지막 반환은  own + chosen[: config.MAX_SELECTED]  로 바꾼다.
     #   (본인 문서는 MAX_SELECTED 개수 제한에도 걸리지 않고 앞에 붙는다)
     own = [c for c in candidates if is_own_doc(player, c)]
-    others = [c for c in candidates if c not in own and not is_date_page(c["title"])]
+    others = [c for c in candidates if c not in own and not is_date_page(c["title"]) and c["title"] not in team_names]
+                 # 팀 문서는 LLM에게 묻지 않는다 (코드가 처리)
     if not others:
         return own
 
@@ -98,4 +104,4 @@ def select_candidates(question: str, player: dict, candidates: list[dict]) -> li
     for n in numbers:
         if 1 <= n <= len(others) and others[n - 1] not in chosen:
             chosen.append(others[n - 1])
-    return own + chosen[:config.MAX_SELECTED]
+    return own + my_team_docs + chosen[:config.MAX_SELECTED]
