@@ -59,8 +59,9 @@ def retrieve(player: dict, question: str) -> list[dict]:
     #    "text": 문서의 page_content, "score": 점수}
     search_results = search_docs(player, question)
     for doc, score in search_results:
+        kind = "팀 정보" if doc.metadata.get("source_type") == "team_info" else "문서"
         evidence.append({
-            "kind": "문서",
+            "kind": kind,
             "title": doc.metadata.get("doc_title"),
             "source_url": doc.metadata.get("source_url"),
             "text": doc.page_content,
