@@ -30,3 +30,5 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 TOP_K = 6
 SEARCH_TYPE = "similarity"   # 심화 F2014: "mmr"
+
+MAX_SELECTED = 3   # 검색어 하나당 색인할 문서 최대 수 (프롬프트 2가 고르는 개수의 상한)
