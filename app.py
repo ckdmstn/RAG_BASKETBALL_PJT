@@ -4,12 +4,15 @@ import streamlit as st
 import config
 from src.data_prep.players import load_players
 from src.rag.pipeline import answer_question
-from src.vectorstore.store import count, get_store
+from src.rag.player_search import find_players
 from src.rag.team_guide import make_team_guide
+from src.vectorstore.store import count, get_store
 
 st.set_page_config(page_title="KBL 안내", page_icon="🏀")
 st.title("🏀 KBL 선수 · 팀 안내")
 st.caption("선수를 고르고 질문하면, 근거를 찾아 답하고 출처를 함께 보여 줍니다.")
+
+VIEWS = ["선수에게 질문", "팀 가이드", "선수 찾기"]
 
 
 @st.cache_data
@@ -36,8 +39,16 @@ def render_sources(cited: list[dict]) -> None:
         st.caption("위키백과 문서는 CC BY-SA 4.0 라이선스입니다.")
 
 
+def open_chat(team: str, player_id: str) -> None:
+    """선수 카드의 '대화하기' 버튼: 사이드바 선택을 그 선수로 맞추고 대화 화면으로 이동한다.
+    (on_click 콜백은 화면을 다시 그리기 전에 실행되므로 위젯 상태를 바꿀 수 있다)"""
+    st.session_state["sb_team"] = team
+    st.session_state[f"player_{team}"] = player_id
+    st.session_state["view"] = "선수에게 질문"
+
+
 def render_chat(player: dict) -> None:
-    """선수와의 대화 탭."""
+    """선수와의 대화 화면."""
     player_id = player["player_id"]
     st.subheader(f"{player['name']} · {player['team']}")
     st.caption(f"{player['position']} · 등번호 {player['jersey_number']}번")
@@ -92,7 +103,7 @@ def render_chat(player: dict) -> None:
 
 
 def render_team_guide(team_names: list[str]) -> None:
-    """팀 가이드 탭 (F2010)."""
+    """팀 가이드 화면 (F2010)."""
     st.subheader("팀 가이드")
     guide_team = st.selectbox(
         "가이드를 볼 팀", team_names, index=None, placeholder="팀을 고르세요", key="guide_team"
@@ -101,7 +112,7 @@ def render_team_guide(team_names: list[str]) -> None:
         st.info("팀을 고르면 연고지·역사·성적·선수단을 정리해 드립니다.")
         return
 
-    guides = st.session_state.setdefault("guides", {})     # {팀: 가이드 결과}
+    guides = st.session_state.setdefault("guides", {})     # {팀: 가이드 결과} (한 번 만든 건 저장해 토큰을 아낀다)
     label = "다시 만들기" if guide_team in guides else "가이드 만들기"
 
     # [실습 5] 버튼을 누르면 가이드를 만들어 guides[team] 에 저장하세요
@@ -125,13 +136,65 @@ def render_team_guide(team_names: list[str]) -> None:
         render_sources(guides[guide_team]["cited"])
 
 
+def render_player_search() -> None:
+    """선수 찾기 화면 (F2011): 조건을 글로 적으면 조건에 맞는 선수 카드를 보여 준다."""
+    st.subheader("선수 찾기")
+    st.caption("조건을 글로 적어 주세요. 예: 고려대 출신 가드 / 고양 소노의 외국인 선수 중 키 큰 순서로 3명 / 190cm 이상 국내 포워드")
+    text = st.text_input("찾을 조건", key="find_text", placeholder="예: NBA에서 뛴 적이 있는 외국인 센터")
+
+    if st.button("찾기") and text.strip():
+        with st.status("선수를 찾는 중...", expanded=True) as status:
+            try:
+                st.session_state["find_result"] = find_players(text.strip(), on_progress=status.write)
+                status.update(label="완료", state="complete", expanded=False)
+            except Exception:
+                st.session_state.pop("find_result", None)
+                status.update(label="실패", state="error")
+                st.error("선수를 찾지 못했습니다. 잠시 후 다시 시도해 주세요.")
+
+    result = st.session_state.get("find_result")
+    if not result:
+        return
+
+    # 해석한 조건을 보여 준다 (조건이 어떻게 이해됐는지 사용자가 확인할 수 있도록)
+    shown_cond = {k: v for k, v in result["conditions"].items() if v not in (None, [])}
+    st.caption(f"해석한 조건: {shown_cond}")
+    if result["note"]:
+        st.caption(result["note"])
+
+    found = result["players"]
+    if not found:
+        st.info("조건에 맞는 선수를 찾지 못했습니다. 조건을 바꿔 보세요.")
+        return
+
+    cards = found[:12]
+    st.write(f"{len(found)}명을 찾았습니다." + (f" (앞 {len(cards)}명만 표시)" if len(found) > len(cards) else ""))
+    cols = st.columns(3)
+    for i, p in enumerate(cards):
+        with cols[i % 3].container(border=True):
+            st.markdown(f"**{p['name']}**")
+            st.caption(f"{p['team']} · {p['position']} · {p['jersey_number']}번")
+            details = []
+            if p.get("height_cm"):
+                details.append(f"{p['height_cm']}cm")
+            if p.get("weight_kg"):
+                details.append(f"{p['weight_kg']}kg")
+            if p.get("birth_year"):
+                details.append(f"{p['birth_year']}년생")
+            if p.get("school"):
+                details.append(p["school"])
+            st.caption(" · ".join(details))
+            st.button("이 선수와 대화하기", key=f"open_{p['player_id']}",
+                      on_click=open_chat, args=(p["team"], p["player_id"]))
+
+
 players = get_players()
 by_id = {p["player_id"]: p for p in players}
 
 with st.sidebar:
     st.header("선수 선택")
     teams = sorted({p["team"] for p in players})
-    team = st.selectbox("팀", teams, index=None, placeholder="팀을 고르세요")
+    team = st.selectbox("팀", teams, index=None, placeholder="팀을 고르세요", key="sb_team")
     team_players = [p for p in players if p["team"] == team] if team else []
     player_id = st.selectbox(
         "선수",
@@ -154,13 +217,15 @@ with st.sidebar:
     except Exception:
         st.caption("색인을 읽지 못했습니다.")
 
-tab_chat, tab_guide = st.tabs(["선수에게 질문", "팀 가이드"])
+# 화면 선택 (탭 대신 radio: 코드로 화면을 바꿀 수 있어야 '카드 -> 대화' 이동이 된다)
+view = st.radio("화면", VIEWS, horizontal=True, key="view", label_visibility="collapsed")
 
-with tab_chat:
+if view == "선수에게 질문":
     if player_id:
         render_chat(by_id[player_id])
     else:
-        st.info("왼쪽에서 팀과 선수를 먼저 고르세요.")
-
-with tab_guide:
+        st.info("왼쪽에서 팀과 선수를 먼저 고르세요. 또는 '선수 찾기'에서 조건으로 찾아 보세요.")
+elif view == "팀 가이드":
     render_team_guide(teams)
+else:
+    render_player_search()
