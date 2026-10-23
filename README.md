@@ -51,7 +51,10 @@ pip install -r requirements.txt
 pip install -r requirements-project.txt
 
 # 2) API 키: 루트에 .env 파일을 만들고 한 줄을 적습니다 (파일은 git·제출물에 넣지 않습니다)
-#    GMS_KEY=발급받은_키
+# GMS 키 
+GMS_KEY=
+# 위키백과 API용 연락처 — 각자 자기 영문 이메일. 없으면 분당 10회로 제한된다.
+WIKI_CONTACT=
 
 # 3) 데이터 정리 (data/kbl_players.json 이 이미 있으면 건너뛰어도 됩니다)
 python scripts/clean_kbl_data.py
