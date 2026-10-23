@@ -1,0 +1,380 @@
+[
+  {
+    "name": "김진영",
+    "team": "안양 정관장 레드부스터스",
+    "position": "가드",
+    "jersey_number": 1,
+    "height_cm": 193,
+    "weight_kg": 67,
+    "birth_year": 1998,
+    "is_foreign": false,
+    "school": "고려대학교 사범대학",
+    "draft": "2019 KBL 신인선수 드래프트 1라운드 3순위 (서울 삼성)",
+    "career_summary": "2019년 1라운드 3순위로 서울 삼성에 지명돼 2019~2024년 삼성에서 뛰었다. 2024년 6월 트레이드로 정관장에 합류했으나 사회복무요원 복무 때문에 실제 합류는 2026년부터로 기록돼 있다. 아버지는 김유택 전 감독이다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EA%B9%80%EC%A7%84%EC%98%81(1998)",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8",
+      "https://www.nocutnews.co.kr/news/6156477"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "김세창",
+    "team": "안양 정관장 레드부스터스",
+    "position": "가드",
+    "jersey_number": 2,
+    "height_cm": 183,
+    "weight_kg": 73,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": null,
+    "draft": "2019 신인드래프트 KCC 지명 (라운드·순위 미확인)",
+    "career_summary": "나무위키 선수단 표 기준 2019년 KCC에서 데뷔해 2023년 정관장으로 이적한 포인트 가드다. 군 복무 중이던 김세창을 소노가 정관장으로 보내고 조은후를 받는 1대1 트레이드가 있었다는 보도가 있으나, 시점이 자료마다 달라 확정하지 못했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8",
+      "https://inside.ampm.co.kr/insight/6754"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "박정웅",
+    "team": "안양 정관장 레드부스터스",
+    "position": "가드",
+    "jersey_number": 4,
+    "height_cm": 194,
+    "weight_kg": 81,
+    "birth_year": 2006,
+    "is_foreign": false,
+    "school": "홍익대학교사범대학부속고등학교",
+    "draft": "2024 KBL 신인선수 드래프트 1라운드 1순위 (안양 정관장)",
+    "career_summary": "고졸 얼리엔트리로 2024년 드래프트 전체 1순위로 지명됐고, 2024년 12월 4일 DB전에서 데뷔했다. 데뷔 시즌에 KBL 최연소 선발 출전 기록을 세웠다. 2025-26시즌에는 49경기에서 총 224득점 101리바운드 83어시스트를 기록했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EB%B0%95%EC%A0%95%EC%9B%85(%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98)",
+      "https://sports.khan.co.kr/article/202411151636003"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "변준형",
+    "team": "안양 정관장 레드부스터스",
+    "position": "가드",
+    "jersey_number": 5,
+    "height_cm": 185.3,
+    "weight_kg": 90,
+    "birth_year": 1996,
+    "is_foreign": false,
+    "school": "동국대학교",
+    "draft": "2018 KBL 신인선수 드래프트 1라운드 2순위 (안양 KGC인삼공사)",
+    "career_summary": "2018년 2순위로 입단해 2018-19시즌 신인상을 받았고, 2020-21·2022-23시즌 챔피언결정전 우승에 기여했다. 2023년 5월 상무에 입대해 2024년 11월 전역했다. 2026년 5월 20일 정관장과 3년·첫해 보수 8억 원에 FA 재계약했다.",
+    "ko_wiki_title": "변준형",
+    "source_urls": [
+      "https://namu.wiki/w/%EB%B3%80%EC%A4%80%ED%98%95",
+      "https://sports.khan.co.kr/article/202605201642013",
+      "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A5%98:%EC%95%88%EC%96%91_%EC%A0%95%EA%B4%80%EC%9E%A5_%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4_%EC%84%A0%EC%88%98"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "박지훈",
+    "team": "안양 정관장 레드부스터스",
+    "position": "가드",
+    "jersey_number": 6,
+    "height_cm": 184.1,
+    "weight_kg": 75,
+    "birth_year": 1995,
+    "is_foreign": false,
+    "school": "중앙대학교",
+    "draft": "2016 KBL 신인선수 드래프트 1라운드 6순위 (부산 KT)",
+    "career_summary": "2016년 부산 KT에 입단했고 2018년 11월 안양 KGC로 트레이드됐다. 2020~2021년 상무에서 복무했고 2022-23시즌 통합우승에 기여했다. 2024년 정관장과 3년·첫해 5억5천만 원에 재계약했고, 2024-25시즌 6라운드 MVP를 받았으며 현재 팀 주장이다.",
+    "ko_wiki_title": "박지훈 (1995년)",
+    "source_urls": [
+      "https://namu.wiki/w/%EB%B0%95%EC%A7%80%ED%9B%88(1995)",
+      "https://www.segye.com/newsView/20240513508838",
+      "https://ko.wikipedia.org/wiki/%EB%B6%84%EB%A5%98:%EC%95%88%EC%96%91_%EC%A0%95%EA%B4%80%EC%9E%A5_%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4_%EC%84%A0%EC%88%98"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "렌즈 아반도",
+    "team": "안양 정관장 레드부스터스",
+    "position": "가드",
+    "jersey_number": 12,
+    "height_cm": 187,
+    "weight_kg": 73,
+    "birth_year": 1998,
+    "is_foreign": true,
+    "school": "산후안 데 레트란 대학(필리핀, Colegio de San Juan de Letran)",
+    "draft": null,
+    "career_summary": "필리핀 출신으로 UST와 레트란을 거쳐 NCAA 시즌 97 MVP를 받은 뒤 2022년 7월 안양 KGC와 계약했다. 2022-23시즌 39경기 평균 9점으로 통합우승에 기여했고 올스타전 덩크왕에 올랐다. 2023-24시즌 종료 후 팀을 떠났다가 2025년에 정관장으로 복귀했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://www.nocutnews.co.kr/news/6377607",
+      "https://gmanetwork.com/ncaa/sports/basketball/839707/rhenz-abando-leaves-letran-signs-with-korean-team-anyang-kgc/story",
+      "https://news.abs-cbn.com/sports/07/28/22/rhenz-abando-set-to-play-in-korean-basketball-league",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "문유현",
+    "team": "안양 정관장 레드부스터스",
+    "position": "가드",
+    "jersey_number": 24,
+    "height_cm": 180.1,
+    "weight_kg": 78.5,
+    "birth_year": 2004,
+    "is_foreign": false,
+    "school": "고려대학교",
+    "draft": "2025 KBL 신인선수 드래프트 1라운드 1순위 (안양 정관장)",
+    "career_summary": "고려대 3학년이던 2025년 얼리엔트리로 전체 1순위 지명을 받았고, 형 문정현(KT)에 이어 KBL 최초의 '형제 1순위' 기록을 세웠다. 대학농구 U-리그 2년 연속 MVP였다. 부상으로 데뷔가 늦어져 2026년 1월 1일 SK전에서 프로 데뷔했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://nocutnews.co.kr/news/6428778",
+      "https://m.seoul.co.kr/news/2025/11/14/20251114500204",
+      "https://www.twig24.com/news/2026/01/06/20260106028004",
+      "https://namu.wiki/w/%EB%AC%B8%EC%9C%A0%ED%98%84"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "표승빈",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 7,
+    "height_cm": 189.2,
+    "weight_kg": 90,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": "한양대학교",
+    "draft": "2023 KBL 신인선수 드래프트 (한양대 3학년 얼리엔트리, 정관장 입단; 라운드·순위 미확인)",
+    "career_summary": "한양대 3학년이던 2023년 8월 얼리엔트리로 KBL 신인선수 드래프트 참가를 결정했다. 나무위키 선수단 표에는 2023년 정관장에 입단한 스몰 포워드/슈팅 가드로 기재돼 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://v.daum.net/v/20230821172351891",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "데이본 리드",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 9,
+    "height_cm": 196,
+    "weight_kg": 93,
+    "birth_year": null,
+    "is_foreign": true,
+    "school": null,
+    "draft": null,
+    "career_summary": "나무위키 선수단 표에 외국인 포워드(등번호 9)로 올라 있고, 데뷔년도 칸에 2017년(피닉스 선즈)이 적혀 있다. 라숀 토마스의 부상 이탈에 따른 일시 대체 선수로 2026년 10월 합류한 것으로 확인된다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8",
+      "https://brunch.co.kr/@@fTal/382",
+      "https://khan.co.kr/article/202610142035005"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "허일영",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 10,
+    "height_cm": 196,
+    "weight_kg": 95,
+    "birth_year": 1985,
+    "is_foreign": false,
+    "school": null,
+    "draft": "2009 KBL 신인선수 드래프트 1라운드 2순위 (대구 오리온스)",
+    "career_summary": "2009년 2순위로 오리온스에 입단해 2012~2014년 상무에서 복무했다. 오리온·SK·LG에서 모두 챔피언결정전 우승을 경험했고 2024-25시즌 챔피언결정전 MVP를 받았다. 2026년 5월 LG에서 FA로 정관장에 이적(2년, 첫해 1억2천만 원)했으며 KBL 현역 최고령 선수다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://www.nocutnews.co.kr/news/6524817",
+      "https://en.wikipedia.org/wiki/Heo_Il-young",
+      "https://www.flashscore.co.kr/player/heo-il-young/OzIGTSXD/",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "주현우",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 14,
+    "height_cm": 197.5,
+    "weight_kg": 88,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": "건국대학교",
+    "draft": "2021 KBL 신인선수 드래프트 2라운드 1순위 (안양 KGC)",
+    "career_summary": "건국대 출신으로 2021년 드래프트 2라운드 1순위로 KGC에 지명됐다. 나무위키 선수단 표 기준 197.5cm 파워 포워드이며 등번호는 14번이다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://nocutnews.co.kr/news/5630814",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "이대헌",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 21,
+    "height_cm": 195.2,
+    "weight_kg": 98,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": "동국대학교",
+    "draft": "2015 KBL 신인선수 드래프트 전체 7순위 (서울 SK)",
+    "career_summary": "2015년 7순위로 서울 SK에 지명됐고 2016년 인천 전자랜드로 이적해 유도훈 감독 밑에서 성장했다. 2024-25시즌 도중 현대모비스로 이적했으며, 2026년 7월 1일 김경원과의 1대1 트레이드로 정관장에 합류했다. 트레이드 시점 기준 정규시즌 330경기 평균 8.9득점 3.5리바운드를 기록했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://sports.khan.co.kr/article/202607010941003",
+      "https://www.flashscore.co.kr/team/anyang-jungkwanjang/E7zW2PzK/",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "라숀 토마스",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 25,
+    "height_cm": 198,
+    "weight_kg": 108,
+    "birth_year": null,
+    "is_foreign": true,
+    "school": null,
+    "draft": null,
+    "career_summary": "나무위키 선수단 표에 2026-27시즌 정관장 외국인 선수(등번호 25)로 올라 있다. 2026년 10월 무릎 부상으로 이탈해 존 무니와 대체 선수가 공백을 메우고 있다고 보도됐다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://khan.co.kr/article/202610142035005",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "김준형",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 35,
+    "height_cm": 201.1,
+    "weight_kg": 78,
+    "birth_year": 1997,
+    "is_foreign": false,
+    "school": "고려대학교",
+    "draft": "2018 KBL 신인선수 드래프트 1라운드 (창원 LG 지명, 전체 순번 미확인)",
+    "career_summary": "고려대 출신으로 2018년 드래프트에서 창원 LG에 지명됐고 2024년 7월 LG에서 정관장으로 이적했다. 플래시스코어 기록상 2024-25시즌 5경기, 2025-26시즌 2경기에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://www.flashscore.co.kr/player/kim-jun-hyung/rsSNh6KD/",
+      "https://www.kbmaeil.com/article/201811270237337",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "송한준",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 44,
+    "height_cm": 198,
+    "weight_kg": 84,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": "광신방송예술고등학교",
+    "draft": "2025 KBL 신인선수 드래프트 2라운드 10순위 (안양 정관장)",
+    "career_summary": "광신방송예고 출신 고졸 포워드로 2025년 신인드래프트 2라운드에서 정관장에 지명됐다. 나무위키 선수단 표 기준 198cm 스몰 포워드이며 등번호는 44번이다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://nocutnews.co.kr/news/6428778",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "한승희",
+    "team": "안양 정관장 레드부스터스",
+    "position": "포워드",
+    "jersey_number": 51,
+    "height_cm": 196,
+    "weight_kg": 102.8,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2020 KBL 신인선수 드래프트, 안양 정관장 입단 (라운드·순위 미확인)",
+    "career_summary": "나무위키 선수단 표 기준 2020년 정관장에서 데뷔한 196cm 파워 포워드/센터다. 2017년 대학농구리그 신인선수상(연세대) 수상자로 나무위키에 기록돼 있고, 2024년 11월 변준형과 함께 군에서 전역했다. 2024-25시즌 후반 백업으로 주전급 활약을 했다는 보도가 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8",
+      "https://namu.wiki/w/%EB%B3%80%EC%A4%80%ED%98%95",
+      "https://sports.khan.co.kr/article/202504100730006"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "박찬호",
+    "team": "안양 정관장 레드부스터스",
+    "position": "센터",
+    "jersey_number": 13,
+    "height_cm": 201,
+    "weight_kg": 107,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": null,
+    "draft": "2019 신인드래프트 인천 전자랜드 지명 (라운드·순위 미확인)",
+    "career_summary": "나무위키 선수단 표 기준 2019년 인천 전자랜드에서 데뷔해 2024년 정관장으로 이적한 201cm 센터이며 등번호는 13번이다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "김종규",
+    "team": "안양 정관장 레드부스터스",
+    "position": "센터",
+    "jersey_number": 15,
+    "height_cm": 206.3,
+    "weight_kg": 104.5,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": "경희대학교",
+    "draft": "2013 KBL 신인선수 드래프트 전체 1순위 (창원 LG)",
+    "career_summary": "2013년 전체 1순위로 LG에 입단했고 2019년 FA로 DB로 이적하며 당시 KBL 최고액(12억7900만 원)을 받았다. 2025년 1월 23일 정효근과의 1대1 트레이드로 정관장에 합류했다. 2014년 인천 아시안게임 금메달 멤버였으며, 2026년 7월 무릎 수술을 받았다고 보도됐다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://www.nocutnews.co.kr/news/6146216",
+      "https://www.kukinews.com/article/view/kuk202501230117",
+      "https://sports.khan.co.kr/article/201308241615253",
+      "https://sports.khan.co.kr/article/202607010941003"
+    ],
+    "data_as_of": "2026-10-15"
+  },
+  {
+    "name": "존 무니",
+    "team": "안양 정관장 레드부스터스",
+    "position": "센터",
+    "jersey_number": 33,
+    "height_cm": 206,
+    "weight_kg": 110,
+    "birth_year": null,
+    "is_foreign": true,
+    "school": "노틀담 대학(미국)",
+    "draft": null,
+    "career_summary": "미국 노틀담대 출신 206cm 센터로 호주 리그를 거쳐 2021년부터 일본 B리그 지바 제츠에서 뛰었고, B리그 정규리그 통산 213경기 평균 14.9점 11.4리바운드를 기록했다. 2026-27시즌을 앞두고 정관장이 영입했으며, 2026년 10월 토마스 이탈 이후 사실상 유일한 외국인 선수로 뛰며 팀 연승에 기여했다는 보도가 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://www.nocutnews.co.kr/news/6532115",
+      "https://khan.co.kr/article/202610142035005",
+      "https://namu.wiki/w/%EC%95%88%EC%96%91%20%EC%A0%95%EA%B4%80%EC%9E%A5%20%EB%A0%88%EB%93%9C%EB%B6%80%EC%8A%A4%ED%84%B0%EC%8A%A4/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-10-15"
+  }
+]
+{"sources_summary":[{"site":"나무위키(namu.wiki) 선수단·선수 문서","terms":"CC BY-NC-SA 2.0 KR (출처표시·비영리·동일조건변경허락). 사용자 편집 문서라 오류 가능성을 스스로 고지함."},{"site":"스포츠경향(sports.khan.co.kr), 노컷뉴스, 세계일보, 스타뉴스, 쿠키뉴스, 서울신문, 트윅, 엑스포츠뉴스, 머니투데이 등 국내 언론","terms":"저작권은 각 언론사에 있고 무단 전재·재배포 금지 표기(세계일보·스타뉴스 등에서 확인). 사실 정보만 요약했고 원문은 복제하지 않았다."},{"site":"GMA News, ABS-CBN, SPIN.ph","terms":"기사 저작권은 각 매체에 있다. SPIN.ph는 무단 사용·배포 금지를 고지한다. 사실 정보만 사용했다."},{"site":"Wikipedia(ko/en), thewiki.kr, Flashscore, KBL 공식 사이트(일정 페이지), 브런치 개인 블로그","terms":"이용약관은 이번 조사에서 직접 확인하지 못했다. 위키백과는 분류 목록 확인과 허일영·김종규 보조 확인, thewiki.kr은 허일영 드래프트 순번 확인, Flashscore는 나이·이적 내역, 블로그는 리드 합류 정황 확인에만 썼다."}]}
+{"notes":"1) KBL 공식 사이트에서 2026-27 시즌 정관장 등록 명단 페이지는 확인하지 못했다. 명단은 나무위키 선수단 표(최종 수정 2026-10-15)와 Flashscore 팀 페이지, 언론 보도를 교차해 구성했고, 모든 선수의 data_as_of는 이 스냅샷 날짜(2026-10-15)로 통일했다. 2) 김진영은 선수단 표에는 있으나 본인 문서에는 사회복무요원 복무 중이라고 돼 있어 실제 출전 가능 여부는 확인하지 못했다. 3) 리드는 일시 대체 선수, 토마스는 부상으로 이탈한 상태이며, 둘 다 선수단 표에는 포함돼 있다. 4) birth_year는 8명만 확인했고(허일영은 위키백과·Flashscore 생일, 김준형은 Flashscore 생일), 나머지와 school·draft 일부는 근거를 못 찾아 null이거나 '미확인'으로 표기했다. 5) 신장·체중은 자료마다 달라 개별 문서 값을 우선했다(박정웅 194/193cm, 변준형 90/95kg, 문유현 180.1/181cm). 6) 송한준의 2라운드 10순위는 지명 나열 순서에서 추정한 값이고, 김준형의 2018년 1라운드 순번은 기사에 명시돼 있지 않아 적지 않았다. 7) ko_wiki_title은 한국어 위키백과 선수 분류 목록에서 확인한 변준형, 박지훈 (1995년) 두 명만 기재했다. 문서를 직접 열어 확인하지는 않았고, 나머지는 확인하지 못해 null이다. 8) 아반도는 아시아쿼터 선수여서 is_foreign을 true로 두었고 draft는 근거가 없어 null이다."}

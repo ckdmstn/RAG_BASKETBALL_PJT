@@ -45,10 +45,12 @@ def retrieve(player: dict, question: str) -> list[dict]:
     #    "source_url": player.get("source_url"), "text": 글, "score": None}
     player_chunk = get_player_chunk(player)
     if player_chunk:
+        # 선수 데이터에는 source_url 이 아니라 source_urls(목록)이 있다 -> 첫 번째를 원문 출처로 쓴다 (F2008)
+        urls = player.get("source_urls") or []
         evidence.append({
             "kind": "선수 정보",
             "title": f"{player['name']} 선수 정보",
-            "source_url": player.get("source_url"),
+            "source_url": urls[0] if urls else None,
             "text": player_chunk,
             "score": None
         })
@@ -68,6 +70,18 @@ def retrieve(player: dict, question: str) -> list[dict]:
             "score": score
         })
 
+
+    # 중복 제거 (F2006): 본문이 같은 근거는 먼저 나온 것 하나만 남긴다
+    # (두 컬렉션의 결과를 합치면 같은 글이 두 번 들어올 수 있다. 번호는 제거한 다음에 매긴다)
+    seen = set()
+    unique = []
+    for e in evidence:
+        key = e["text"].strip()
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(e)
+    evidence = unique
 
     # [실습 4-3] 근거마다 "n" 을 1부터 매기세요 (답변의 [근거 n] 인용에 쓰여요)
     for i, e in enumerate(evidence, start=1):

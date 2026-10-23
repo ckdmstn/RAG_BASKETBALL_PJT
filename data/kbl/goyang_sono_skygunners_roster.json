@@ -1,0 +1,372 @@
+[
+  {
+    "name": "조석호",
+    "team": "고양 소노 스카이거너스",
+    "position": "가드",
+    "jersey_number": 1,
+    "height_cm": 178.7,
+    "weight_kg": 75,
+    "birth_year": 2002,
+    "is_foreign": false,
+    "school": "부산중앙고등학교",
+    "draft": "2020 신인드래프트 2라운드 4순위",
+    "career_summary": "2020년 고양 오리온에 입단했고 이후 고양 캐롯·데이원 점퍼스를 거쳐 2023년부터 소노 소속이다. 2025년 군 복무 후 복귀했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/조석호",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "박종하",
+    "team": "고양 소노 스카이거너스",
+    "position": "가드",
+    "jersey_number": 3,
+    "height_cm": 184.3,
+    "weight_kg": 78.2,
+    "birth_year": 2001,
+    "is_foreign": false,
+    "school": "성균관대학교",
+    "draft": "2023 신인드래프트 1라운드 8순위",
+    "career_summary": "2023년 소노에 지명되었다. 성균관대 시절 대학리그 평균 15.5점을 기록했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/박종하(농구선수)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "이재도",
+    "team": "고양 소노 스카이거너스",
+    "position": "가드",
+    "jersey_number": 4,
+    "height_cm": 180,
+    "weight_kg": 73,
+    "birth_year": 1991,
+    "is_foreign": false,
+    "school": "한양대학교",
+    "draft": "2013 신인드래프트 1라운드 5순위",
+    "career_summary": "부산 kt, 안양 KGC인삼공사, 창원 LG를 거쳐 2024년부터 소노에서 뛴다. 상무에서 군 복무를 마쳤다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/이재도",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단",
+      "https://basketkorea.com/news/newsview.php?ncode=1065586487661667"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "이정현",
+    "team": "고양 소노 스카이거너스",
+    "position": "가드",
+    "jersey_number": 6,
+    "height_cm": 187,
+    "weight_kg": 86.4,
+    "birth_year": 1999,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2021 신인드래프트 3순위 (라운드 미확인)",
+    "career_summary": "2021년 드래프트 3순위로 고양 오리온에 지명되었고 대표팀에도 선발된 적이 있다. 2023 항저우 아시안게임에 출전했고, 2026-27시즌 국내선수 최고 연봉 7억 2천만 원에 소노와 계약했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://osen.co.kr/article/G1111693394",
+      "https://www.munhwa.com/article/11395600",
+      "https://www.flashscore.co.kr/player/lee-jung-hyun/ImaasNd4/",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단",
+      "https://jumpball.co.kr/news/newsview.php?ncode=1065587030828965"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "이동엽",
+    "team": "고양 소노 스카이거너스",
+    "position": "가드",
+    "jersey_number": 7,
+    "height_cm": 192.5,
+    "weight_kg": 85,
+    "birth_year": 1994,
+    "is_foreign": false,
+    "school": "고려대학교",
+    "draft": "2015 신인드래프트 1라운드 5순위",
+    "career_summary": "서울 삼성 썬더스에서 2015~2025년 뛰었고 2018~2020년 상무에서 군 복무했다. 2025-26시즌 도중 트레이드로 소노에 합류했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/이동엽(농구선수)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "소준혁",
+    "team": "고양 소노 스카이거너스",
+    "position": "가드",
+    "jersey_number": 20,
+    "height_cm": 184.8,
+    "weight_kg": 82.1,
+    "birth_year": 2002,
+    "is_foreign": false,
+    "school": "명지대학교",
+    "draft": "2024 신인드래프트 2라운드 10순위",
+    "career_summary": "2024년 안양 정관장에 입단했고, 2025-26시즌 종료 후 FA로 소노에 합류했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/소준혁",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "김진유",
+    "team": "고양 소노 스카이거너스",
+    "position": "가드",
+    "jersey_number": 55,
+    "height_cm": 188.6,
+    "weight_kg": 83,
+    "birth_year": 1994,
+    "is_foreign": false,
+    "school": "건국대학교",
+    "draft": "2016 신인드래프트 1라운드 10순위",
+    "career_summary": "2016년 고양 오리온스에 입단해 2023년부터 소노 소속이다. 2019~2021년 상무에서 군 복무했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/김진유",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단",
+      "https://basketkorea.com/news/newsview.php?ncode=1065586487661667"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "정희재",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 9,
+    "height_cm": 194,
+    "weight_kg": 94,
+    "birth_year": 1989,
+    "is_foreign": false,
+    "school": "고려대학교",
+    "draft": "2012 신인드래프트 2라운드 4순위",
+    "career_summary": "2012년 전주 KCC에 입단했고 2019년 FA로 창원 LG에 이적했다. 2024년 FA로 소노에 합류해 주장을 맡고 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/정희재",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "안정욱",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 10,
+    "height_cm": 193.3,
+    "weight_kg": 92,
+    "birth_year": 2000,
+    "is_foreign": false,
+    "school": "성균관대학교",
+    "draft": "2022 신인드래프트 2라운드 4순위",
+    "career_summary": "2022년 고양 캐롯에 입단했다. 상무 복무(2024.05~2025.11) 후 복귀했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/안정욱(농구선수)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "서동원",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 11,
+    "height_cm": 192.2,
+    "weight_kg": 93.7,
+    "birth_year": 2002,
+    "is_foreign": false,
+    "school": "단국대학교",
+    "draft": "2024 신인드래프트 2라운드 5순위",
+    "career_summary": "2024년 SK와의 2라운드 지명권 스왑 트레이드로 소노에 입단했다. KBL 통산 2시즌 12경기에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/서동원(2002)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "임동섭",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 13,
+    "height_cm": 198,
+    "weight_kg": 93,
+    "birth_year": 1990,
+    "is_foreign": false,
+    "school": "중앙대학교",
+    "draft": "2012 신인드래프트 1라운드 2순위",
+    "career_summary": "서울 삼성에서 오래 뛰었고 창원 LG를 거쳐 2024년 FA로 소노에 합류했다. 상무에서 군 복무를 마쳤다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/임동섭",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "이근준",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 14,
+    "height_cm": 194.3,
+    "weight_kg": 87,
+    "birth_year": 2005,
+    "is_foreign": false,
+    "school": "경복고등학교",
+    "draft": "2024 신인드래프트 1라운드 2순위",
+    "career_summary": "2024년 소노에 지명된 고졸 신인으로, 2024년 12월 1일 KBL에 데뷔해 16점 7리바운드를 기록했다. 나무위키 내 등번호 기록(14번/11번)이 엇갈린다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/이근준",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "신지원",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 17,
+    "height_cm": 197.2,
+    "weight_kg": 97,
+    "birth_year": 2003,
+    "is_foreign": false,
+    "school": "한양대학교",
+    "draft": "2025 신인드래프트 2라운드 7순위",
+    "career_summary": "2025년 소노에 입단했다. 2025-26시즌 2경기에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/신지원(농구선수)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "켐바오",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 28,
+    "height_cm": 194,
+    "weight_kg": 97,
+    "birth_year": 2001,
+    "is_foreign": true,
+    "school": "드라살 대학교",
+    "draft": null,
+    "career_summary": "필리핀 국적으로 2024년 아시아쿼터로 소노에 입단했다. 필리핀 대학리그 MVP(2023, 2024)를 받았다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/켐바오",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "최승욱",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 77,
+    "height_cm": 192.3,
+    "weight_kg": 82,
+    "birth_year": 1993,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2014 신인드래프트 1라운드 9순위",
+    "career_summary": "2014년 창원 LG에 입단해 고양 오리온, 원주 DB를 거쳐 2024년부터 소노에서 뛴다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/최승욱(1993)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "강지훈",
+    "team": "고양 소노 스카이거너스",
+    "position": "센터",
+    "jersey_number": 12,
+    "height_cm": 200.7,
+    "weight_kg": 100,
+    "birth_year": 2003,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2025 신인드래프트 1라운드 4순위",
+    "career_summary": "2025년 소노에 입단했다. 2025-26시즌 38경기에서 291득점 121리바운드를 기록했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/강지훈(농구선수)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단",
+      "https://www.newsis.com/view/NISX20260907_0003778432"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "조재우",
+    "team": "고양 소노 스카이거너스",
+    "position": "센터",
+    "jersey_number": 15,
+    "height_cm": 199.3,
+    "weight_kg": 97,
+    "birth_year": 1999,
+    "is_foreign": false,
+    "school": "단국대학교",
+    "draft": "2022 신인드래프트 1라운드 7순위",
+    "career_summary": "2022년 고양 캐롯에 지명되어 소노로 이어졌다. 상무 복무(2024.05~2025.11) 후 복귀했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/조재우(농구선수)",
+      "https://namu.wiki/w/고양_소노_스카이거너스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "스카티 제임스",
+    "team": "고양 소노 스카이거너스",
+    "position": "포워드",
+    "jersey_number": 31,
+    "height_cm": 202,
+    "weight_kg": 108,
+    "birth_year": 1996,
+    "is_foreign": true,
+    "school": "리버티대학교",
+    "draft": null,
+    "career_summary": "독일·이스라엘·중국 CBA(톈진)에서 뛰었다. 중국 4시즌 평균 22.2점 11.9리바운드를 기록했고, 2026년 소노에 1옵션 외국인 선수로 입단했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/스카티 제임스",
+      "https://www.nocutnews.co.kr/news/6525757",
+      "https://basketkorea.com/news/newsview.php?ncode=1065614367671105"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "자니 오브라이언트",
+    "team": "고양 소노 스카이거너스",
+    "position": "센터",
+    "jersey_number": 0,
+    "height_cm": 203,
+    "weight_kg": 118,
+    "birth_year": 1993,
+    "is_foreign": true,
+    "school": "루이지애나 주립대학교",
+    "draft": "2014 NBA 드래프트 2라운드 6순위",
+    "career_summary": "NBA 밀워키·덴버·샬럿 등을 거쳤고 KBL에서는 원주 DB(2021-22), 안양 정관장(2025-26)에서 뛰었다. 2026년 소노에 합류했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/자니 오브라이언트",
+      "https://basketkorea.com/news/newsview.php?ncode=1065614367671105"
+    ],
+    "data_as_of": "2026-10-21"
+  }
+]
+{"sources_summary": [{"site": "나무위키(namu.wiki)", "use": "선수 기본정보 대부분(생년, 신체, 학력, 드래프트, 등번호, 경력)", "terms": "이용약관 페이지를 열지 못해 확인하지 못함. 사용자 편집 위키이므로 정확성 보장 없음"}, {"site": "바스켓코리아 / 점프볼", "use": "2026-27 국내선수 등록 기사(2026-06-29), 외국인 선수 기사", "terms": "약관 미확인. 기사 저작권은 각 매체에 있음"}, {"site": "OSEN, 문화일보, CBS노컷뉴스, 뉴시스", "use": "이정현·스카티 제임스·강지훈 보조 확인", "terms": "약관 미확인. 기사 저작권은 각 매체에 있음"}, {"site": "Flashscore 한국어판", "use": "이정현 생년월일 교차 확인", "terms": "약관 미확인"}]}
+{"notes": "19명 수록(국내 16 + 아시아쿼터 켐바오 + 외국인 2). 명단 기준은 나무위키 2026-27 선수단 표이며 KBL 공식 등록 명단과 대조하지 못함. 제외: 차민석(상무 복무 중, 2026-11 복귀 예정, 개인정보 미확인), 민기남·백지웅(군 복무, 2027-28 복귀 예정). 대부분 필드가 나무위키 한 곳 근거라 교차검증이 부족함. 이정현: 생년 1999는 문화일보·Flashscore 근거, 키 187cm는 나무위키·기사 근거(Flashscore는 191cm/포워드로 불일치), 몸무게는 나무위키 선수단 표(86.4)만 근거, 드래프트 라운드 미확인. 이근준·서동원·이동엽·조석호는 나무위키 안에서 등번호 기록이 엇갈려 선수단 표 기준을 사용. 켐바오는 본명 Karl Kevin Quiambao, 아시아쿼터라 is_foreign=true로 처리. 스카티 제임스 드래프트 정보는 문서에 없어 null. 포지션은 포인트/슈팅가드→가드, 스몰/파워포워드→포워드로 단순화했고 몸무게 일부는 소수점 값. ko_wiki_title은 요청대로 전부 null."}

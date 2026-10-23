@@ -1,0 +1,348 @@
+[
+  {
+    "name": "김종호",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 0,
+    "height_cm": 184.4,
+    "weight_kg": 80,
+    "birth_year": 1999,
+    "is_foreign": false,
+    "school": "동국대학교",
+    "draft": "2021 신인드래프트 2라운드 6순위",
+    "career_summary": "2021년 창원 LG에 입단했고 2023~2024년 육군 현역으로 복무했다. 2024-25 챔피언결정전 우승 반지를 보유하고 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/김종호(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "유기상",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 1,
+    "height_cm": 188,
+    "weight_kg": 85.5,
+    "birth_year": 2001,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2023 신인드래프트 1라운드 3순위",
+    "career_summary": "2023-24시즌 신인 한 시즌 최다 3점슛 95개를 기록하며 신인왕을 받았다. 2024년 성인 대표팀에 처음 발탁되어 2025 FIBA 아시아컵에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/유기상",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "김선우",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 2,
+    "height_cm": 172.8,
+    "weight_kg": 73,
+    "birth_year": 2003,
+    "is_foreign": false,
+    "school": "한양대학교",
+    "draft": "2025 신인드래프트 1라운드 10순위",
+    "career_summary": "2025년 창원 LG에 입단했다. 2025-26시즌 3경기에 출전해 5득점 1어시스트를 기록했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/김선우(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "김준영",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 4,
+    "height_cm": 178.9,
+    "weight_kg": 69,
+    "birth_year": 2003,
+    "is_foreign": false,
+    "school": "건국대학교",
+    "draft": "2025 신인드래프트 2라운드 1순위",
+    "career_summary": "2025년 창원 LG에 입단했고 2025년 12월 28일 KBL에 데뷔했다. 2025-26시즌 2경기에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/김준영(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "양준석",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 5,
+    "height_cm": 180,
+    "weight_kg": 74.6,
+    "birth_year": 2001,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2022 신인드래프트 1라운드 1순위",
+    "career_summary": "2022년 창원 LG에 입단했고 2024-25시즌부터 주전 포인트가드로 뛰고 있다. 2025 FIBA 아시아컵 대표팀 최종 엔트리에 포함되었다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/양준석",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "한상혁",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 6,
+    "height_cm": 183.1,
+    "weight_kg": 78,
+    "birth_year": 1993,
+    "is_foreign": false,
+    "school": "한양대학교",
+    "draft": "2015 신인드래프트 1라운드 8순위",
+    "career_summary": "2015년 창원 LG에 입단했고 2017~2019년 상무에서 군 복무를 마쳤다. 2026년 FA 시장에서 LG와 2년 재계약했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/한상혁(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "최형찬",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 7,
+    "height_cm": 187.6,
+    "weight_kg": 84.2,
+    "birth_year": 2002,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2024 신인드래프트 2라운드 4순위",
+    "career_summary": "연세대에서 2023·2024년 U리그 주장을 맡았고 2024년 창원 LG에 입단했다. KBL 통산 79경기에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/최형찬(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "윤원상",
+    "team": "창원 LG 세이커스",
+    "position": "가드",
+    "jersey_number": 10,
+    "height_cm": 180.9,
+    "weight_kg": 74.5,
+    "birth_year": 1998,
+    "is_foreign": false,
+    "school": "단국대학교",
+    "draft": "2020 신인드래프트 1라운드 6순위",
+    "career_summary": "2020년 창원 LG에 입단했고 상무에서 2024.05.20~2025.11.19 복무했다. 2025-26시즌에는 복귀해 양준석의 백업으로 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/윤원상",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "장민국",
+    "team": "창원 LG 세이커스",
+    "position": "포워드",
+    "jersey_number": 3,
+    "height_cm": 198.6,
+    "weight_kg": 94,
+    "birth_year": 1989,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2012 신인드래프트 1라운드 10순위",
+    "career_summary": "전주 KCC, 안양 KGC인삼공사, 서울 삼성을 거쳤고 2023~2024년 일본 나가사키 벨카에서 뛰었다. 2024년부터 창원 LG 소속이다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/장민국",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "임정현",
+    "team": "창원 LG 세이커스",
+    "position": "포워드",
+    "jersey_number": 9,
+    "height_cm": 191.3,
+    "weight_kg": 90,
+    "birth_year": 2002,
+    "is_foreign": false,
+    "school": "동국대학교 WISE캠퍼스",
+    "draft": "2025 신인드래프트 3라운드 10순위",
+    "career_summary": "2025년 창원 LG에 입단했다. 2025-26시즌 2경기에 출전해 3득점을 기록했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/임정현(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "양홍석",
+    "team": "창원 LG 세이커스",
+    "position": "포워드",
+    "jersey_number": 11,
+    "height_cm": 195,
+    "weight_kg": 97,
+    "birth_year": 1997,
+    "is_foreign": false,
+    "school": "중앙대학교",
+    "draft": "2017 신인드래프트 1라운드 2순위",
+    "career_summary": "2017~2023시즌 kt 소닉붐에서 뛰며 2018-19시즌 MIP와 베스트5에 선정되었다. 2023년 FA로 창원 LG에 이적했고 2024~2025년 상무에서 복무했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/양홍석",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "정인덕",
+    "team": "창원 LG 세이커스",
+    "position": "포워드",
+    "jersey_number": 16,
+    "height_cm": 196.2,
+    "weight_kg": 83,
+    "birth_year": 1994,
+    "is_foreign": false,
+    "school": "중앙대학교",
+    "draft": "2016 신인드래프트 2라운드 6순위",
+    "career_summary": "2016년 창원 LG에 입단했고 군 복무 후 2021년 재입단했다. 2025-26시즌 3점슛 성공률 44.4%로 리그 1위를 기록했고 2026-27시즌 주장을 맡았다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/정인덕",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "문시윤",
+    "team": "창원 LG 세이커스",
+    "position": "포워드",
+    "jersey_number": 20,
+    "height_cm": 198.1,
+    "weight_kg": 100,
+    "birth_year": 1999,
+    "is_foreign": false,
+    "school": "명지대학교",
+    "draft": "2021 신인드래프트 2라운드 8순위",
+    "career_summary": "2021년 고양 오리온에 입단해 데이원, 소노를 거쳐 2026년 창원 LG에 합류했다. 2023년 6월~2024년 12월 육군으로 복무했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/문시윤",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "이광진",
+    "team": "창원 LG 세이커스",
+    "position": "포워드",
+    "jersey_number": 21,
+    "height_cm": 193.8,
+    "weight_kg": 87,
+    "birth_year": 1997,
+    "is_foreign": false,
+    "school": "동국대학교",
+    "draft": "2020 신인드래프트 2라운드 5순위",
+    "career_summary": "2020년 창원 LG에 입단했고 2023년 5월~2024년 11월 상무에서 복무했다. 2025년 챔피언결정전 우승 반지를 보유하고 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/이광진(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "칼 타마요",
+    "team": "창원 LG 세이커스",
+    "position": "포워드",
+    "jersey_number": 33,
+    "height_cm": 202,
+    "weight_kg": 95,
+    "birth_year": 2001,
+    "is_foreign": true,
+    "school": "필리핀 대학교",
+    "draft": null,
+    "career_summary": "필리핀 국적으로 일본 B.리그 류큐 골든킹스를 거쳐 2024년 아시아쿼터로 LG에 입단했다. 2024-25시즌 평균 15.1득점 5.8리바운드로 베스트5에 선정되었고 아시아쿼터 최초 라운드 MVP를 받았다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/칼 타마요",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단",
+      "https://www.mydaily.co.kr/page/view/2026052914464367445"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "지용현",
+    "team": "창원 LG 세이커스",
+    "position": "센터",
+    "jersey_number": 25,
+    "height_cm": 201,
+    "weight_kg": 97,
+    "birth_year": 2002,
+    "is_foreign": false,
+    "school": "동국대학교",
+    "draft": "2025 신인드래프트 4라운드 1순위",
+    "career_summary": "2025년 창원 LG에 입단했다. 2025-26시즌에는 1군 기록이 없다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/지용현(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "박정현",
+    "team": "창원 LG 세이커스",
+    "position": "센터",
+    "jersey_number": 31,
+    "height_cm": 202.6,
+    "weight_kg": 114,
+    "birth_year": 1996,
+    "is_foreign": false,
+    "school": "고려대학교",
+    "draft": "2019 신인드래프트 1라운드 1순위",
+    "career_summary": "2019년 1순위로 창원 LG에 입단했고 2022~2023년 상무에서 복무했다. 2023년 복귀해 백업 센터로 뛰고 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/박정현(농구선수)",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단"
+    ],
+    "data_as_of": "2026-10-21"
+  },
+  {
+    "name": "아셈 마레이",
+    "team": "창원 LG 세이커스",
+    "position": "센터",
+    "jersey_number": 50,
+    "height_cm": 202,
+    "weight_kg": 113,
+    "birth_year": 1992,
+    "is_foreign": true,
+    "school": "미네소타 주립대학교 맨케이토",
+    "draft": null,
+    "career_summary": "이집트 출신으로 튀르키예·독일·프랑스 등 유럽 리그를 거쳐 2021년 창원 LG에 입단했다. 2025-26시즌 정규리그 우승에 기여하며 외국인 MVP를 받았다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/아셈 마레이",
+      "https://namu.wiki/w/창원_LG_세이커스/선수단",
+      "https://www.mydaily.co.kr/page/view/2026052914464367445"
+    ],
+    "data_as_of": "2026-10-21"
+  }
+]
+{"sources_summary": [{"site": "나무위키(namu.wiki)", "use": "명단 및 선수별 생년·신체·학력·드래프트·등번호·경력 전부", "terms": "이용약관 페이지를 열지 못해 확인하지 못함. 사용자 편집 위키라 정확성 보장 없음"}, {"site": "마이데일리", "use": "마레이·타마요 재계약 기사(2026-05-29) 확인", "terms": "약관 미확인. 기사 저작권은 매체에 있음"}]}
+{"notes": "등록 선수 21명 중 18명 수록. 명단 기준은 나무위키 2026-27 선수단 표(문서 수정일 2026-08-28)이며 KBL 공식 명단과 대조하지 못함. 거의 모든 값이 나무위키 한 곳 근거라 교차검증이 부족함. 제외: 이강현(상무 복무 중, 2027-28 복귀), 이경도(사회복무요원), 나성호(선수단 표에는 현역으로 나오나 본인 문서는 2026년 입대·로스터 제외로 서술해 소속 불일치). 마레이는 선수단 표 키 206cm와 본인 문서 202cm가 달라 본인 문서 값을 사용. 칼 타마요는 아시아쿼터라 is_foreign=true. 최형찬은 등번호 7/17 기록이 엇갈려 7 사용, 김선우는 24번 이력이 있고 현재 2번으로 표기. 장민국 드래프트는 문서에 2012년 1월 기재. 포지션은 포인트/슈팅가드→가드, 스몰/파워포워드→포워드로 단순화. ko_wiki_title은 요청대로 전부 null."}

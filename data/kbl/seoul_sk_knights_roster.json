@@ -1,0 +1,405 @@
+[
+  {
+    "name": "이민서",
+    "team": "서울 SK 나이츠",
+    "position": "가드",
+    "jersey_number": 1,
+    "height_cm": 179.5,
+    "weight_kg": 80,
+    "birth_year": 2003,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2024 KBL 국내신인선수 드래프트 1라운드 7순위 (서울 SK)",
+    "career_summary": "2024년 SK에 지명됐으나 2024-25 시즌은 부상으로 1군 기록이 없다. 2025-26 시즌에는 주로 김낙현의 백업으로 28경기에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%9D%B4%EB%AF%BC%EC%84%9C%28%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98%29",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "최원혁",
+    "team": "서울 SK 나이츠",
+    "position": "가드",
+    "jersey_number": 3,
+    "height_cm": 182.5,
+    "weight_kg": 87,
+    "birth_year": 1992,
+    "is_foreign": false,
+    "school": "한양대학교",
+    "draft": "2014 KBL 국내신인선수 드래프트 2라운드 3순위 (서울 SK)",
+    "career_summary": "2014년 SK에 입단해 2017-18 챔피언결정전 우승에 기여했고 2018-19 시즌 수비 5걸상을 받았다. 상무에서 2019~2021 복무했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%B5%9C%EC%9B%90%ED%98%81",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "김낙현",
+    "team": "서울 SK 나이츠",
+    "position": "가드",
+    "jersey_number": 4,
+    "height_cm": 183.7,
+    "weight_kg": 89,
+    "birth_year": 1995,
+    "is_foreign": false,
+    "school": "고려대학교",
+    "draft": "2017 KBL 신인 드래프트 1라운드 6순위 (인천 전자랜드)",
+    "career_summary": "전자랜드(2017~2021), 한국가스공사(2021~2025)를 거쳐 2025년 SK에 합류했다. 2020-21 시즌부터 주전 포인트 가드로 뛰었고 상무에서 2022.05~2023.11 복무했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EA%B9%80%EB%82%99%ED%98%84",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "전성환",
+    "team": "서울 SK 나이츠",
+    "position": "가드",
+    "jersey_number": 6,
+    "height_cm": 178.2,
+    "weight_kg": 77,
+    "birth_year": 1997,
+    "is_foreign": false,
+    "school": "상명대학교",
+    "draft": "2019 KBL 신인 드래프트 1라운드 4순위 (고양 오리온)",
+    "career_summary": "오리온, 캐롯·데이원, 소노를 거쳐 2023년 트레이드로 SK에 합류했다. 상명대 출신 최초의 로터리픽이었고 육군 병장으로 만기 전역했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%A0%84%EC%84%B1%ED%99%98%28%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98%29",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "김수환",
+    "team": "서울 SK 나이츠",
+    "position": "가드",
+    "jersey_number": 7,
+    "height_cm": 188.4,
+    "weight_kg": 83,
+    "birth_year": 1998,
+    "is_foreign": false,
+    "school": "성균관대학교",
+    "draft": "2021 KBL 국내신인선수 드래프트 2라운드 5순위 (서울 SK)",
+    "career_summary": "2021년 SK에 입단했고 2021-22 시즌에는 정규리그 출전 없이 주로 D리그에서 뛰었다. 2022년 챔피언결정전 우승 반지를 받았고 사회복무요원으로 소집 해제됐다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EA%B9%80%EC%88%98%ED%99%98%28%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98%29",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "안영준",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 8,
+    "height_cm": 194.1,
+    "weight_kg": 95,
+    "birth_year": 1995,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2017 KBL 신인선수 드래프트 1라운드 4순위 (서울 SK)",
+    "career_summary": "2017-18 시즌 신인왕을 받고 SK의 챔피언결정전 우승에 기여했다. 2024-25 시즌 국내선수 MVP를 수상했고 현재 부주장이다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%95%88%EC%98%81%EC%A4%80",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "선상혁",
+    "team": "서울 SK 나이츠",
+    "position": "센터",
+    "jersey_number": 11,
+    "height_cm": 205,
+    "weight_kg": 105,
+    "birth_year": 1999,
+    "is_foreign": false,
+    "school": "중앙대학교",
+    "draft": "2021 KBL 국내신인선수 드래프트 1라운드 6순위 (서울 SK)",
+    "career_summary": "중앙대 3학년을 마치고 얼리 드래프트로 2021년 SK에 입단했다. 2021-22 시즌 챔피언결정전 우승 반지를 받았고 KBL 통산 3시즌 14경기에 출전했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%84%A0%EC%83%81%ED%98%81",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "안성우",
+    "team": "서울 SK 나이츠",
+    "position": "가드",
+    "jersey_number": 12,
+    "height_cm": 183.7,
+    "weight_kg": 81,
+    "birth_year": 2003,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2025 KBL 국내신인선수 드래프트 2라운드 2순위 (서울 SK)",
+    "career_summary": "농구인 안덕수의 아들로 2025년 SK에 지명됐다. 2025-26 시즌 26경기에서 45득점 17리바운드 11어시스트를 기록했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%95%88%EC%84%B1%EC%9A%B0%28%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98%29",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "최부경",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 14,
+    "height_cm": 195,
+    "weight_kg": 102,
+    "birth_year": 1989,
+    "is_foreign": false,
+    "school": "건국대학교",
+    "draft": "2012 KBL 드래프트 1라운드 2순위 (서울 SK)",
+    "career_summary": "2012년 SK에 입단했고 상무에서 2015~2017 복무했다. 2024년 3월 KBL 개인통산 2,500리바운드를 달성했고 2018·2022 챔피언결정전 우승 반지를 보유한다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%B5%9C%EB%B6%80%EA%B2%BD",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "양준",
+    "team": "서울 SK 나이츠",
+    "position": "센터",
+    "jersey_number": 15,
+    "height_cm": 199.7,
+    "weight_kg": 94,
+    "birth_year": 2001,
+    "is_foreign": false,
+    "school": "고려대학교",
+    "draft": "2024 KBL 국내신인선수 드래프트 3라운드 6순위 (서울 SK)",
+    "career_summary": "고려대 3학년 때 이상백배와 유니버시아드 대표팀에 발탁됐다. 2024년 SK에 입단했으나 2024-25 시즌 1군 기록은 없다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%96%91%EC%A4%80%28%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98%29",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "전준범",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 17,
+    "height_cm": 195,
+    "weight_kg": 80,
+    "birth_year": 1991,
+    "is_foreign": false,
+    "school": "연세대학교",
+    "draft": "2013 KBL 국내신인선수 드래프트 1라운드 9순위 (울산 모비스)",
+    "career_summary": "모비스(2013~2021), KCC(2021~2025), 현대모비스(2025~2026)를 거쳐 2026년 6월 1년 5천만 원에 SK와 계약했다. 상무에서 2018~2020 복무했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%A0%84%EC%A4%80%EB%B2%94",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "김명진",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 20,
+    "height_cm": 198.5,
+    "weight_kg": 91,
+    "birth_year": null,
+    "is_foreign": false,
+    "school": "동국대학교",
+    "draft": "2025 KBL 국내신인선수 드래프트 1라운드 9순위 (서울 SK)",
+    "career_summary": "동국대 3학년 때인 2025년 드래프트에서 SK에 지명됐다. 긴 윙스팬과 점프, 블록 능력이 강점인 수비형 포워드로 소개된다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8",
+      "https://news.sktelecom.com/217296",
+      "https://namu.wiki/w/2025%20KBL%20%EA%B5%AD%EB%82%B4%EC%8B%A0%EC%9D%B8%EC%84%A0%EC%88%98%20%EB%93%9C%EB%9E%98%ED%94%84%ED%8A%B8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "프레디 무티바",
+    "team": "서울 SK 나이츠",
+    "position": "센터",
+    "jersey_number": 21,
+    "height_cm": 201.5,
+    "weight_kg": 103,
+    "birth_year": 2003,
+    "is_foreign": true,
+    "school": "건국대학교 GLOCAL캠퍼스",
+    "draft": "2025 KBL 국내신인선수 드래프트 3라운드 9순위 (서울 SK)",
+    "career_summary": "콩고민주공화국 출신으로 휘문고를 졸업했고 건국대에서 2022 U-리그 신인상을 받았다. 외국 국적 선수의 신인 드래프트 참가 조건 완화로 2025년 SK에 지명됐다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%ED%94%84%EB%A0%88%EB%94%94%20%EB%AC%B4%ED%8B%B0%EB%B0%94",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "오재현",
+    "team": "서울 SK 나이츠",
+    "position": "가드",
+    "jersey_number": 22,
+    "height_cm": 186.4,
+    "weight_kg": 88,
+    "birth_year": 1999,
+    "is_foreign": false,
+    "school": "한양대학교",
+    "draft": "2020 KBL 국내신인선수 드래프트 2라운드 1순위 (서울 SK)",
+    "career_summary": "2020-21 시즌 신인상, 2023-24 시즌 최우수 수비상을 받았고 성인 국가대표에 처음 발탁됐다. 2025년 6월 3년 총액 2억 5천만 원에 재계약했으나 2025-26 시즌은 부상과 낮은 슈팅 효율로 부진했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%98%A4%EC%9E%AC%ED%98%84",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "김형빈",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 23,
+    "height_cm": 200.5,
+    "weight_kg": 95,
+    "birth_year": 2000,
+    "is_foreign": false,
+    "school": "안양고등학교",
+    "draft": "2019 KBL 신인선수 드래프트 1라운드 5순위 (서울 SK)",
+    "career_summary": "대학 진학 없이 고졸로 2019년 SK에 입단했다. 데뷔 시즌에는 무릎 수술과 재활로 출전하지 못했고 2024-25 플레이오프와 챔피언결정전에서 주목받았다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EA%B9%80%ED%98%95%EB%B9%88",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "알빈 톨렌티노",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 25,
+    "height_cm": 196,
+    "weight_kg": 95,
+    "birth_year": 1995,
+    "is_foreign": true,
+    "school": "FEU 타마라우 대학교",
+    "draft": "2020 PBA 신인드래프트 전체 10순위 (바랑가스 시티 아틀레틱스)",
+    "career_summary": "PBA 바랑가이 히네브라, 노스포트 바랑피어에서 뛰었고 2024-25 PBA 커미셔너스컵 MVP를 받았다. 2025년 KBL 아시아쿼터로 SK와 계약한 뒤 재계약했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%ED%86%A8%EB%A0%8C%ED%8B%B0%EB%85%B8",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "아이재아 힉스",
+    "team": "서울 SK 나이츠",
+    "position": "센터",
+    "jersey_number": 31,
+    "height_cm": 202,
+    "weight_kg": 104,
+    "birth_year": 1994,
+    "is_foreign": true,
+    "school": "노스캐롤라이나 대학교",
+    "draft": "2017 NBA 드래프트 미지명",
+    "career_summary": "2017-18 시즌 뉴욕 닉스와 투웨이 계약으로 NBA에 출전했고 삼성, 한국가스공사, SK(2024~2025), 수원 KT(2025~2026)를 거쳐 2026년 6월 SK에 2옵션 외국인으로 복귀했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%9E%AC%EC%95%84%20%ED%9E%89%EC%8A%A4",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "자밀 워니",
+    "team": "서울 SK 나이츠",
+    "position": "센터",
+    "jersey_number": 34,
+    "height_cm": 199,
+    "weight_kg": 116,
+    "birth_year": 1994,
+    "is_foreign": true,
+    "school": "스토니브룩 대학교",
+    "draft": "2015 KBL 외국선수 드래프트 미지명",
+    "career_summary": "NBA G리그 텍사스 레전드와 댈러스 매버릭스(2017-18)를 거쳐 2019년 SK와 자유계약으로 KBL에 입단했다. 여러 차례 외국인 MVP와 베스트5에 선정됐고 2026-27 시즌 재계약으로 8시즌째를 맞는다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%9E%90%EB%B0%80%20%EC%9B%8C%EB%8B%88",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "임현택",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 35,
+    "height_cm": 196.8,
+    "weight_kg": 84,
+    "birth_year": 1997,
+    "is_foreign": false,
+    "school": "단국대학교",
+    "draft": "2020 KBL 드래프트 1라운드 10순위 (서울 SK)",
+    "career_summary": "2020년 SK에 입단했으나 드래프트 직후 디스크 수술을 받았다. 2021-22 시즌 D리그에서 두각을 나타냈고 해당 시즌 챔피언결정전 우승 반지를 받았으며 사회복무요원으로 복무했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%9E%84%ED%98%84%ED%83%9D%28%EB%86%8D%EA%B5%AC%EC%84%A0%EC%88%98%29",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "에디 다니엘",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 36,
+    "height_cm": 190.8,
+    "weight_kg": 97,
+    "birth_year": 2007,
+    "is_foreign": false,
+    "school": "용산고등학교",
+    "draft": null,
+    "career_summary": "KBL 최초의 연고지명 선수로 대학 대신 2025년 SK에 직행했다. 2025-26 시즌 30경기에 출전했고 유소년 대표를 거쳐 2026 아이치·나고야 아시안게임 금메달을 획득한 것으로 서술돼 있다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%97%90%EB%94%94%20%EB%8B%A4%EB%8B%88%EC%97%98",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8",
+      "https://news.sktelecom.com/217296"
+    ],
+    "data_as_of": "2026-09-29"
+  },
+  {
+    "name": "오세근",
+    "team": "서울 SK 나이츠",
+    "position": "포워드",
+    "jersey_number": 41,
+    "height_cm": 199.8,
+    "weight_kg": 108,
+    "birth_year": 1987,
+    "is_foreign": false,
+    "school": "중앙대학교",
+    "draft": "2011 KBL 국내신인선수 드래프트 1라운드 1순위 (안양 KGC인삼공사)",
+    "career_summary": "2011년 KGC에서 데뷔해 2023년 FA로 SK에 합류했고 현재 주장이다. 챔피언결정전 MVP를 3회 수상했고 2014 인천 아시안게임 금메달로 상무에서 조기 전역했다.",
+    "ko_wiki_title": null,
+    "source_urls": [
+      "https://namu.wiki/w/%EC%98%A4%EC%84%B8%EA%B7%BC",
+      "https://namu.wiki/w/%EC%84%9C%EC%9A%B8%20SK%20%EB%82%98%EC%9D%B4%EC%B8%A0/%EC%84%A0%EC%88%98%EB%8B%A8"
+    ],
+    "data_as_of": "2026-09-29"
+  }
+]
+{"sources_summary": [{"site": "나무위키(namu.wiki) 서울 SK 나이츠 선수단 문서, 선수 개별 문서, 2025 KBL 국내신인선수 드래프트 문서", "terms": "사용자 편집 문서로 부정확할 수 있음. 라이선스는 CC BY-NC-SA 2.0 KR(출처표시·비영리·동일조건변경허락)로 알려져 있으나 이번 조사에서 약관 페이지를 다시 열어 확인하지는 않았다."}, {"site": "SK텔레콤 뉴스룸(news.sktelecom.com/217296)", "terms": "구단 모기업 뉴스룸 기사로 신인 선수 4명(김명진, 안성우, 프레디, 에디 다니엘) 소개 내용만 참고했다. 이용 약관은 확인하지 못했다."}]}
+{"notes": "1) KBL 공식 사이트의 2026-27 SK 등록 명단은 확인하지 못했다. 명단은 나무위키 선수단 문서(최종 수정 2026-09-29)의 현역 21명 기준이며 data_as_of는 이 날짜로 통일했다. 2) 군복무 중인 강재민·김태훈·문가온(2027-28 복귀 예정)은 제외했다. 3) 2026 신인 드래프트 SK 지명자는 확인하지 못해 포함하지 않았다. 4) 김명진의 개별 나무위키 문서는 두 번 열람에 실패했다. 포지션·등번호·키·몸무게는 선수단 표(198.5cm/91kg), 드래프트·학교는 드래프트 문서와 SK텔레콤 뉴스룸을 근거로 했고 birth_year는 null이다. 5) 에디 다니엘은 문서 제목이 별도(에디 다니엘)였고, 연고지명 선수라 draft는 null이다. 6) 안성우의 드래프트 순번은 개별 문서(2라운드 2순위)와 드래프트 문서(2라운드 9순위 표기)가 달라 개별 문서 값을 썼다. 7) 톨렌티노는 KBL 드래프트 출신이 아니며 draft에 PBA 신인드래프트 순번을 적었다(문서 내 2019/2020 표기 불일치). 아시아쿼터 선수라 is_foreign을 true로 했다. 8) 키·몸무게는 개별 문서 값을 우선해 선수단 표와 다른 경우가 있다(최원혁 182.5/87 vs 183/81, 최부경 195/102 vs 200/105, 오재현 몸무게 88 vs 85, 힉스 104 vs 100, 양준 몸무게 94 vs 110 등). 9) 프레디 무티바는 외국 국적이나 국내 신인 드래프트로 입단해 is_foreign을 true로 두었다. 10) 모든 정보가 나무위키 중심이라 다른 매체와 충분히 교차검증하지 못했다. 11) ko_wiki_title은 요청대로 전원 null이다."}
