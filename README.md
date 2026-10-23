@@ -91,7 +91,7 @@ submit_doc/             제출 문서
 - KBL 규정 PDF(`data/kbl_docs/`)는 한국농구연맹 공개 자료이며 개인 학습용입니다. 이번 구현에서는 색인하지 않았습니다.
 
 ## 검증 결과 요약
-전체 실행 결과는 `docs/verification_log.md`에 있습니다.
+전체 실행 결과는 `docs/verification_log.md`에 있고, 셀프·상호 체크리스트 결과는 아래 "문서" 표에 있습니다.
 
 | 확인 항목 | 결과 |
 |---|---|
@@ -128,6 +128,8 @@ submit_doc/             제출 문서
 | [`docs/prompt_log.md`](docs/prompt_log.md) | 프롬프트별 개선 기록 |
 | [`docs/verification_log.md`](docs/verification_log.md) | 단계별 검증 결과 |
 | [`docs/rag_comparison.md`](docs/rag_comparison.md) | RAG 사용 전후 비교 (F2015) |
+| [`submit_doc/셀프_체크리스트.xlsx`](submit_doc/셀프_체크리스트.xlsx) | 셀프 체크리스트 (통과 23, 해당없음 4, 실패·미확인 0) |
+| [`submit_doc/상호_점검_체크리스트.xlsx`](submit_doc/상호_점검_체크리스트.xlsx) | 상호 체크리스트: 윤동현 님이 점검 (통과 23, 해당없음 4). 지적된 `WIKI_CONTACT` 안내는 위 실행 방법 2)에 반영 |
 
 ## 알려진 한계
 - 규정 PDF를 색인하지 않아 "외국인 선수는 최대 몇 명 등록할 수 있어?" 같은 규정 질문에는 "문서에서 확인되지 않습니다"로 답합니다.
