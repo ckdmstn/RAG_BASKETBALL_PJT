@@ -4,3 +4,4 @@ __pycache__/
 chroma_db/
 data/cache/
 *.pyc
+chroma_db_bak/
