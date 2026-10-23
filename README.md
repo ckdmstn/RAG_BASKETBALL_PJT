@@ -82,7 +82,7 @@ scripts/                데이터 정리, 색인, 단계별 실행·검증, RAG 
 data/                   선수·팀 JSON, 원본(kbl/), 규정 PDF(kbl_docs/), 캐시(cache/)
 docs/                   설계 메모, 프롬프트 기록, 검증 기록, RAG 비교
 img/                    검증용 화면 캡처
-submit_doc/             제출 문서
+submit_docs/             제출 문서
 ```
 
 ## 데이터와 이용 조건
@@ -122,14 +122,14 @@ submit_doc/             제출 문서
 ## 문서
 | 문서 | 내용 |
 |---|---|
-| [`submit_doc/요구사항정의서.md`](submit_doc/요구사항정의서.md) | 기능·비기능 요구사항 구현 현황, 도메인 선정 근거 |
-| [`submit_doc/RAG_파이프라인_설계.md`](submit_doc/RAG_파이프라인_설계.md) | 컬렉션 구조, 수집·청킹·색인 흐름, 프롬프트, 설정 근거, 겪은 문제 |
+| [`submit_docs/요구사항정의서.md`](submit_docs/요구사항정의서.md) | 기능·비기능 요구사항 구현 현황, 도메인 선정 근거 |
+| [`submit_docs/RAG_파이프라인_설계.md`](submit_docs/RAG_파이프라인_설계.md) | 컬렉션 구조, 수집·청킹·색인 흐름, 프롬프트, 설정 근거, 겪은 문제 |
 | [`docs/design_notes.md`](docs/design_notes.md) | 설계 결정과 겪은 문제 기록 |
 | [`docs/prompt_log.md`](docs/prompt_log.md) | 프롬프트별 개선 기록 |
 | [`docs/verification_log.md`](docs/verification_log.md) | 단계별 검증 결과 |
 | [`docs/rag_comparison.md`](docs/rag_comparison.md) | RAG 사용 전후 비교 (F2015) |
-| [`submit_doc/셀프_체크리스트.xlsx`](submit_doc/셀프_체크리스트.xlsx) | 셀프 체크리스트 (통과 23, 해당없음 4, 실패·미확인 0) |
-| [`submit_doc/상호_점검_체크리스트.xlsx`](submit_doc/상호_점검_체크리스트.xlsx) | 상호 체크리스트: 윤동현 님이 점검 (통과 23, 해당없음 4). 지적된 `WIKI_CONTACT` 안내는 위 실행 방법 2)에 반영 |
+| [`submit_docs/셀프_체크리스트.xlsx`](submit_docs/셀프_체크리스트.xlsx) | 셀프 체크리스트 (통과 23, 해당없음 4, 실패·미확인 0) |
+| [`submit_docs/상호_점검_체크리스트.xlsx`](submit_docs/상호_점검_체크리스트.xlsx) | 상호 체크리스트: 윤동현 님이 점검 (통과 23, 해당없음 4). 지적된 `WIKI_CONTACT` 안내는 위 실행 방법 2)에 반영 |
 
 ## 알려진 한계
 - 규정 PDF를 색인하지 않아 "외국인 선수는 최대 몇 명 등록할 수 있어?" 같은 규정 질문에는 "문서에서 확인되지 않습니다"로 답합니다.
